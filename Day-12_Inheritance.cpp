@@ -83,3 +83,14 @@ int main() {
 	cout << "Grade: " << s->calculate() << "\n";
 	return 0;
 }
+
+/*
+In the Student class constructor, we take in the necessary parameters and call the constructor of the Person class using Person(firstName, lastName, identification). We also initialize the testScores vector using testScores(scores).
+
+In the calculate method, we calculate the average score by summing up all the test scores and dividing by the number of test scores. We then use if-else statements to determine the appropriate letter grade based on the average score, and return the corresponding character.
+
+
+
+
+
+*/
